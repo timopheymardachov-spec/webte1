@@ -1,0 +1,5 @@
+Validator: Nu Html Checker 26.10.2 (1815ff1) (the engine behind validator.w3.org), run locally on 2026-10-05
+Command:   java -jar vnu.jar --skip-non-html index.html pages/*.html
+Files:     index.html, pages/cv.html, pages/workspace.html, pages/schedule.html, pages/map.html
+
+Result: no errors and no warnings (the checker prints nothing when a document is valid).

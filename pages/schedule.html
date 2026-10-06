@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="sk" class="no-js">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tymofii Mardachov — Kedy ma zastihnete</title>
+  <meta name="description" content="Týždenný rozvrh Tymofiia Mardachova na ZS 2026/2027 s filtrom podľa typu výučby a priebehom semestra.">
+
+  <meta property="og:title" content="Tymofii Mardachov — Kedy ma zastihnete">
+  <meta property="og:description" content="Rozvrh na zimný semester 2026/2027 a priebeh semestra.">
+  <meta property="og:image" content="../img/og-cover.png">
+  <meta property="og:type" content="website">
+
+  <link rel="icon" href="../favicon.ico" sizes="any">
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="../css/print.css" media="print">
+  <script src="../js/script.js" defer></script>
+</head>
+<body class="page-schedule">
+  <a class="skip-link" href="#content">Preskočiť na obsah</a>
+
+  <header class="site-header">
+    <div class="container header-bar">
+      <a class="brand-link" href="../index.html">
+        <img class="monogram" src="../img/monogram.svg" alt="" width="44" height="44">
+        <span class="brand-text">
+          <span class="brand-name">Tymofii Mardachov</span>
+          <span class="brand-slogan">Študent aplikovanej informatiky, ktorý spája programovanie s cestovaním.</span>
+        </span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-menu" aria-label="Prepnúť navigačné menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <nav class="site-nav container" id="main-menu" aria-label="Hlavná navigácia">
+      <ul>
+        <li><a href="../index.html">Profil</a></li>
+        <li><a href="cv.html">Životopis</a></li>
+        <li><a href="workspace.html">Pracovné prostredie</a></li>
+        <li><a href="schedule.html" aria-current="page">Kedy ma zastihnete</a></li>
+        <li><a href="map.html">Kde ma nájdete</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="content" class="container">
+    <section class="page-hero" aria-labelledby="h-schedule">
+      <h1 id="h-schedule">Kedy mám čas</h1>
+      <p>Rozvrh na zimný semester 2026/2027 (14. 9. 2026 – 13. 2. 2027). Bunka, v ktorej práve som na výučbe, sa zvýrazní automaticky.</p>
+
+      <p class="status-banner" aria-live="polite">Zisťujem aktuálny stav rozvrhu…</p>
+
+      <h2>Týždenný rozvrh</h2>
+
+      <div class="legend" aria-hidden="true">
+        <span><i class="swatch-lecture"></i> prednáška</span>
+        <span><i class="swatch-seminar"></i> cvičenie</span>
+        <span><i class="swatch-pe"></i> telesná výchova</span>
+      </div>
+
+      <div class="filter-bar" role="group" aria-label="Filter rozvrhu podľa typu výučby">
+        <button class="filter-btn" type="button" data-filter="all" aria-pressed="true">Všetko</button>
+        <button class="filter-btn" type="button" data-filter="lecture" aria-pressed="false">Prednášky</button>
+        <button class="filter-btn" type="button" data-filter="seminar" aria-pressed="false">Cvičenia</button>
+      </div>
+      <p class="filter-empty-msg" hidden>Pre tento filter momentálne nie je v rozvrhu žiadna položka.</p>
+
+      <div class="table-scroll">
+        <table class="schedule-table">
+          <caption>Týždenný rozvrh, 7:00 – 21:00</caption>
+          <thead>
+            <tr>
+              <th scope="col">Deň</th>
+              <th scope="col">7:00–8:00</th>
+              <th scope="col">8:00–9:00</th>
+              <th scope="col">9:00–10:00</th>
+              <th scope="col">10:00–11:00</th>
+              <th scope="col">11:00–12:00</th>
+              <th scope="col">12:00–13:00</th>
+              <th scope="col">13:00–14:00</th>
+              <th scope="col">14:00–15:00</th>
+              <th scope="col">15:00–16:00</th>
+              <th scope="col">16:00–17:00</th>
+              <th scope="col">17:00–18:00</th>
+              <th scope="col">18:00–19:00</th>
+              <th scope="col">19:00–20:00</th>
+              <th scope="col">20:00–21:00</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Pondelok</th>
+              <td class="is-empty" colspan="2"></td>
+              <td class="cell-seminar" data-day="mon" data-start="09:00" data-end="09:50" data-type="seminar">
+                <span class="cell-course" lang="en">Web technologies 1</span>
+                <span class="cell-room">c137</span>
+                <span class="cell-teacher">K. Žáková</span>
+              </td>
+              <td class="is-empty" colspan="11"></td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <th scope="row" rowspan="2">Utorok</th>
+              <td class="is-empty" rowspan="2"></td>
+              <td class="cell-lecture" rowspan="2" data-day="tue" data-start="08:00" data-end="08:50" data-type="lecture">
+                <span class="cell-course" lang="en">Analysis and complexity of algorithms</span>
+                <span class="cell-room">de300</span>
+                <span class="cell-teacher">M. Bečka</span>
+              </td>
+              <td class="cell-lecture" rowspan="2" data-day="tue" data-start="09:00" data-end="09:50" data-type="lecture">
+                <span class="cell-course" lang="en">Web technologies 1</span>
+                <span class="cell-room">cd150</span>
+                <span class="cell-teacher">K. Žáková</span>
+              </td>
+              <td class="is-empty" rowspan="2"></td>
+              <td class="cell-lecture" rowspan="2" data-day="tue" data-start="11:00" data-end="11:50" data-type="lecture">
+                <span class="cell-course" lang="en">Mathematical statistics</span>
+                <span class="cell-room">bc150</span>
+                <span class="cell-teacher">J. Kalická</span>
+              </td>
+              <td class="is-empty" rowspan="2"></td>
+              <td class="cell-lecture" colspan="2" data-day="tue" data-start="13:00" data-end="14:50" data-type="lecture">
+                <span class="cell-course" lang="en">Programming techniques</span>
+                <span class="cell-room">de300</span>
+                <span class="cell-teacher">M. Drozda</span>
+              </td>
+              <td class="is-empty" rowspan="2" colspan="2"></td>
+              <td class="cell-seminar" rowspan="2" data-day="tue" data-start="17:00" data-end="17:50" data-type="seminar">
+                <span class="cell-course" lang="en">Software engineering</span>
+                <span class="cell-room">cd300</span>
+                <span class="cell-teacher">O. Gallo</span>
+              </td>
+              <td class="is-empty" rowspan="2" colspan="3"></td>
+            </tr>
+            <tr>
+              <td class="cell-lecture" colspan="2" data-day="tue" data-start="13:00" data-end="14:50" data-type="lecture">
+                <span class="cell-course" lang="en">Software engineering</span>
+                <span class="cell-room">cd300</span>
+                <span class="cell-teacher">O. Gallo</span>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <th scope="row" rowspan="2">Streda</th>
+              <td class="is-empty" rowspan="2" colspan="2"></td>
+              <td class="cell-lecture" colspan="2" data-day="wed" data-start="09:00" data-end="10:50" data-type="lecture">
+                <span class="cell-course" lang="en">Analysis and complexity of algorithms</span>
+                <span class="cell-room">bc150</span>
+                <span class="cell-teacher">M. Bečka</span>
+              </td>
+              <td class="is-empty" rowspan="2" colspan="2"></td>
+              <td class="cell-lecture" rowspan="2" data-day="wed" data-start="13:00" data-end="13:50" data-type="lecture">
+                <span class="cell-course" lang="en">Web technologies 1</span>
+                <span class="cell-room">cd150</span>
+                <span class="cell-teacher">K. Žáková</span>
+              </td>
+              <td class="is-empty" rowspan="2" colspan="7"></td>
+            </tr>
+            <tr>
+              <td class="cell-lecture" colspan="2" data-day="wed" data-start="09:00" data-end="10:50" data-type="lecture">
+                <span class="cell-course" lang="en">Mathematical statistics</span>
+                <span class="cell-room">c430</span>
+                <span class="cell-teacher">D. Pancza</span>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <th scope="row">Štvrtok</th>
+              <td class="is-empty"></td>
+              <td class="cell-seminar" data-day="thu" data-start="08:00" data-end="08:50" data-type="seminar">
+                <span class="cell-course" lang="en">Programming techniques</span>
+                <span class="cell-room">cd300</span>
+                <span class="cell-teacher">P. Marák</span>
+              </td>
+              <td class="is-empty" colspan="3"></td>
+              <td class="cell-seminar" data-day="thu" data-start="12:00" data-end="12:50" data-type="seminar">
+                <span class="cell-course" lang="en">Software engineering</span>
+                <span class="cell-room">c137</span>
+                <span class="cell-teacher">O. Gallo</span>
+              </td>
+              <td class="cell-pe" data-day="thu" data-start="13:00" data-end="13:50" data-type="pe">
+                <span class="cell-course" lang="en">Physical Exercises 5</span>
+                <span class="cell-room">t-upol2</span>
+                <span class="cell-teacher">K. Hižňayová</span>
+              </td>
+              <td class="is-empty" colspan="7"></td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <th scope="row">Piatok</th>
+              <td class="is-empty" colspan="2"></td>
+              <td class="cell-seminar" data-day="fri" data-start="09:00" data-end="09:50" data-type="seminar">
+                <span class="cell-course" lang="en">Analysis and complexity of algorithms</span>
+                <span class="cell-room">cd150</span>
+                <span class="cell-teacher">M. Bečka</span>
+              </td>
+              <td class="is-empty" colspan="11"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Priebeh semestra</h2>
+      <div class="progress-wrap">
+        <div class="progress-track" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" aria-label="Priebeh zimného semestra 2026/2027">
+          <div class="progress-fill" style="width:0%"></div>
+        </div>
+        <p class="progress-label">Počítam priebeh semestra…</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <address>
+        <strong>Tymofii Mardachov</strong><br>
+        <a href="mailto:xmardachov@stuba.sk">xmardachov@stuba.sk</a><br>
+        <a href="tel:+421905123456">+421 905 123 456</a><br>
+        Pod lesíkom 7, 841 04 Bratislava – Karlova Ves
+      </address>
+      <p class="footer-note">© 2026 Tymofii Mardachov. Ilustrácie a monogram (SVG): vlastný návrh vytvorený s pomocou AI (Claude). Mapové podklady © <a href="https://www.esri.com/">Esri</a> (World Street Map) a prispievatelia, knižnica <a href="https://leafletjs.com/">Leaflet</a>. Písmo <a href="https://github.com/rsms/inter">Inter</a> (SIL Open Font License 1.1).</p>
+    </div>
+  </footer>
+</body>
+</html>

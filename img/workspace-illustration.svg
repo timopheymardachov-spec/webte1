@@ -1,0 +1,96 @@
+<svg viewBox="0 0 800 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="wsIllTitle">
+  <title id="wsIllTitle">Ilustracia systemu na spravu objednavok a statistik</title>
+  <rect width="800" height="480" rx="18" fill="#EEF1F5"/>
+  <!-- window chrome -->
+  <rect x="0" y="0" width="800" height="50" rx="18" fill="#123847"/>
+  <rect x="0" y="34" width="800" height="16" fill="#123847"/>
+  <circle cx="26" cy="25" r="6" fill="#E3A438"/>
+  <circle cx="46" cy="25" r="6" fill="#4C7A8A"/>
+  <circle cx="66" cy="25" r="6" fill="#4C7A8A"/>
+  <text x="400" y="31" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#EEF1F5">Objednavky a statistiky</text>
+
+  <!-- sidebar -->
+  <rect x="0" y="50" width="70" height="430" fill="#0E2A3D"/>
+  <circle cx="35" cy="90" r="8" fill="#F4C86A"/>
+  <circle cx="35" cy="130" r="8" fill="#4C7A8A"/>
+  <circle cx="35" cy="170" r="8" fill="#4C7A8A"/>
+  <circle cx="35" cy="210" r="8" fill="#4C7A8A"/>
+
+  <!-- orders panel -->
+  <rect x="86" y="66" width="374" height="364" rx="12" fill="#FFFFFF" stroke="#D8DEE4"/>
+  <text x="106" y="96" font-family="Inter, Arial, sans-serif" font-weight="700" font-size="16" fill="#123847">Objednavky</text>
+
+  <!-- new order button (hotspot) -->
+  <rect x="364" y="74" width="90" height="34" rx="17" fill="#E3A438"/>
+  <text x="409" y="96" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-weight="700" font-size="13" fill="#123847">+ Nova</text>
+
+  <!-- table header -->
+  <line x1="106" y1="118" x2="440" y2="118" stroke="#D8DEE4"/>
+  <text x="106" y="138" font-family="Inter, Arial, sans-serif" font-size="12" fill="#5B6670">C.</text>
+  <text x="150" y="138" font-family="Inter, Arial, sans-serif" font-size="12" fill="#5B6670">Objednavka</text>
+  <text x="360" y="138" font-family="Inter, Arial, sans-serif" font-size="12" fill="#5B6670">Stav</text>
+
+  <!-- rows -->
+  <g font-family="Inter, Arial, sans-serif">
+    <line x1="106" y1="150" x2="440" y2="150" stroke="#EEF1F5" stroke-width="2"/>
+    <text x="106" y="178" font-size="13" font-weight="700" fill="#123847">#241</text>
+    <text x="150" y="178" font-size="13" fill="#171A1F">Dvojlozkova izba</text>
+    <rect x="358" y="163" width="80" height="22" rx="11" fill="#DDEFE1"/>
+    <text x="398" y="178" text-anchor="middle" font-size="11" fill="#1F7A45">Potvrdena</text>
+
+    <line x1="106" y1="198" x2="440" y2="198" stroke="#EEF1F5" stroke-width="2"/>
+    <text x="106" y="226" font-size="13" font-weight="700" fill="#123847">#242</text>
+    <text x="150" y="226" font-size="13" fill="#171A1F">Wellness balik</text>
+    <rect x="358" y="211" width="80" height="22" rx="11" fill="#FBEBD1"/>
+    <text x="398" y="226" text-anchor="middle" font-size="11" fill="#9A6A12">Caka sa</text>
+
+    <line x1="106" y1="246" x2="440" y2="246" stroke="#EEF1F5" stroke-width="2"/>
+    <text x="106" y="274" font-size="13" font-weight="700" fill="#123847">#243</text>
+    <text x="150" y="274" font-size="13" fill="#171A1F">Konferencna sala</text>
+    <rect x="358" y="259" width="80" height="22" rx="11" fill="#DDEFE1"/>
+    <text x="398" y="274" text-anchor="middle" font-size="11" fill="#1F7A45">Potvrdena</text>
+
+    <line x1="106" y1="294" x2="440" y2="294" stroke="#EEF1F5" stroke-width="2"/>
+    <text x="106" y="322" font-size="13" font-weight="700" fill="#123847">#244</text>
+    <text x="150" y="322" font-size="13" fill="#171A1F">Ranajky pre 2</text>
+    <rect x="358" y="307" width="80" height="22" rx="11" fill="#F1E2E2"/>
+    <text x="398" y="322" text-anchor="middle" font-size="11" fill="#9A3B3B">Zrusena</text>
+  </g>
+
+  <!-- stats panel -->
+  <rect x="480" y="66" width="300" height="140" rx="12" fill="#FFFFFF" stroke="#D8DEE4"/>
+  <text x="504" y="92" font-family="Inter, Arial, sans-serif" font-weight="700" font-size="14" fill="#123847">Statistiky predaja</text>
+  <text x="504" y="110" font-family="Inter, Arial, sans-serif" font-size="11" fill="#5B6670">za obdobie: posledny mesiac</text>
+  <g>
+    <rect x="504" y="158" width="18" height="32" fill="#1B4E5D"/>
+    <rect x="532" y="142" width="18" height="48" fill="#1B4E5D"/>
+    <rect x="560" y="126" width="18" height="64" fill="#E3A438"/>
+    <rect x="588" y="150" width="18" height="40" fill="#1B4E5D"/>
+    <rect x="616" y="134" width="18" height="56" fill="#1B4E5D"/>
+    <rect x="644" y="120" width="18" height="70" fill="#E3A438"/>
+  </g>
+  <line x1="504" y1="190" x2="672" y2="190" stroke="#B9C2CA" stroke-width="2"/>
+
+  <!-- detail panel -->
+  <rect x="480" y="222" width="300" height="98" rx="12" fill="#FFFFFF" stroke="#D8DEE4"/>
+  <text x="504" y="248" font-family="Inter, Arial, sans-serif" font-weight="700" font-size="14" fill="#123847">Detail objednavky #241</text>
+  <circle cx="512" cy="272" r="12" fill="#1B4E5D"/>
+  <text x="504" y="298" font-family="Inter, Arial, sans-serif" font-size="12" fill="#5B6670">Klient: J. Novak</text>
+  <text x="504" y="312" font-family="Inter, Arial, sans-serif" font-size="12" fill="#5B6670">+421 9xx xxx xxx</text>
+
+  <!-- language toggle -->
+  <rect x="480" y="336" width="138" height="94" rx="12" fill="#FFFFFF" stroke="#D8DEE4"/>
+  <text x="549" y="360" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" fill="#5B6670">jazyk</text>
+  <rect x="497" y="372" width="104" height="30" rx="15" fill="#EEF1F5" stroke="#B9C2CA"/>
+  <circle cx="524" cy="387" r="13" fill="#1B4E5D"/>
+  <text x="524" y="391" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-weight="700" font-size="11" fill="#F4C86A">SK</text>
+  <text x="576" y="391" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-weight="700" font-size="11" fill="#7B8894">EN</text>
+
+  <!-- export -->
+  <rect x="634" y="336" width="146" height="94" rx="12" fill="#FFFFFF" stroke="#D8DEE4"/>
+  <g transform="translate(688,352)">
+    <path d="M20 0 V28 M10 18 L20 30 L30 18" fill="none" stroke="#1B4E5D" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="2" y="36" width="36" height="6" rx="3" fill="#E3A438"/>
+  </g>
+  <text x="707" y="416" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" fill="#5B6670">export</text>
+</svg>

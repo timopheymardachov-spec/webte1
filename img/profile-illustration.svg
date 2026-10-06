@@ -1,0 +1,27 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="profileIllTitle">
+  <title id="profileIllTitle">Ilustracia: notebook s kodom a dráha letu nad ním</title>
+  <rect x="0" y="0" width="400" height="400" rx="28" fill="#EEF1F5"/>
+
+  <!-- flight path -->
+  <path d="M70 300 C 140 260, 150 150, 260 90" fill="none" stroke="#E3A438"
+        stroke-width="4" stroke-linecap="round" stroke-dasharray="2 16"/>
+  <!-- paper plane -->
+  <g transform="translate(258,84) rotate(-38)">
+    <path d="M0 0 L34 8 L0 16 L7 8 Z" fill="#E3A438"/>
+  </g>
+
+  <!-- suitcase -->
+  <g transform="translate(64,238)">
+    <rect x="0" y="14" width="54" height="40" rx="6" fill="#123847"/>
+    <rect x="16" y="4" width="22" height="14" rx="4" fill="none" stroke="#123847" stroke-width="5"/>
+    <rect x="0" y="30" width="54" height="6" fill="#E3A438"/>
+  </g>
+
+  <!-- laptop base -->
+  <path d="M112 292 L288 292 L308 314 L92 314 Z" fill="#0E2A3D"/>
+  <!-- laptop screen -->
+  <rect x="118" y="168" width="164" height="124" rx="10" fill="#123847"/>
+  <rect x="131" y="180" width="138" height="100" rx="5" fill="#1B4E5D"/>
+  <text x="200" y="242" font-family="Inter, Arial, sans-serif" font-weight="800"
+        font-size="34" fill="#F4C86A" text-anchor="middle">&lt;/&gt;</text>
+</svg>

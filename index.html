@@ -1,12 +1,85 @@
-<!DOCTYPE html>
-<html lang="sk">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello world</title>
-  </head>
-  <body>
-    <h1>Hello world</h1>
-    <p>Tymofii Mardachov — Webové technológie I.</p>
-  </body>
+<!doctype html>
+<html lang="sk" class="no-js">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tymofii Mardachov — Profil</title>
+  <meta name="description" content="Tymofii Mardachov, študent aplikovanej informatiky na STU FEI — profil, zameranie a ciele.">
+
+  <meta property="og:title" content="Tymofii Mardachov — Profil">
+  <meta property="og:description" content="Študent aplikovanej informatiky, ktorý spája programovanie s cestovaním.">
+  <meta property="og:image" content="img/og-cover.png">
+  <meta property="og:type" content="website">
+
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/print.css" media="print">
+  <script src="js/script.js" defer></script>
+</head>
+<body class="page-index">
+  <a class="skip-link" href="#content">Preskočiť na obsah</a>
+
+  <header class="site-header">
+    <div class="container header-bar">
+      <a class="brand-link" href="index.html">
+        <img class="monogram" src="img/monogram.svg" alt="" width="44" height="44">
+        <span class="brand-text">
+          <span class="brand-name">Tymofii Mardachov</span>
+          <span class="brand-slogan">Študent aplikovanej informatiky, ktorý spája programovanie s cestovaním.</span>
+        </span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-menu" aria-label="Prepnúť navigačné menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <nav class="site-nav container" id="main-menu" aria-label="Hlavná navigácia">
+      <ul>
+        <li><a href="index.html" aria-current="page">Profil</a></li>
+        <li><a href="pages/cv.html">Životopis</a></li>
+        <li><a href="pages/workspace.html">Pracovné prostredie</a></li>
+        <li><a href="pages/schedule.html">Kedy ma zastihnete</a></li>
+        <li><a href="pages/map.html">Kde ma nájdete</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="content" class="container">
+    <section class="page-hero" aria-labelledby="h-profile">
+      <h1 id="h-profile">Tymofii Mardachov — programujem a cestujem, jedno druhé nevylučuje</h1>
+
+      <figure class="profile-figure">
+        <img src="img/profile-illustration.svg" alt="Ilustrácia notebooku s kódom, cestovného kufra a dráhy letu nad nimi" width="280" height="280" loading="lazy">
+        <figcaption>Namiesto fotografie: minimalistická ilustrácia.</figcaption>
+      </figure>
+
+      <p>Som študent tretieho ročníka Aplikovanej informatiky na STU FEI v Bratislave. Popri štúdiu pracujem na hotelovej recepcii, kde bežne používam CRM a PMS systémy — a práve spojenie technického myslenia s prácou s ľuďmi je to, čo ma na tom najviac baví.</p>
+
+      <p>Zaujíma ma práca s dátami (SQL, Python) aj komunikácia s ľuďmi a rád by som to spojil v IT podpore, administrácii alebo ako junior Python developer. Keď nesedím pri kóde, plánujem si ďalšiu cestu — cestovanie je pre mňa spôsob, ako si od obrazovky občas oddýchnuť. Viac o mne nájdete v <a href="pages/cv.html">životopise</a>, alebo si pozrite, <a href="pages/workspace.html">ako reálne pracujem</a>.</p>
+
+      <h2>Tri veci, ktoré ma vystihujú</h2>
+      <ul class="key-list">
+        <li>SQL a Python — programujem a pracujem s dátami</li>
+        <li>Komunikatívnosť — rozumiem si s ľuďmi a viem im veci vysvetliť</li>
+        <li>Angličtina — bežne v nej čítam dokumentáciu aj komunikujem</li>
+      </ul>
+
+      <aside class="quote-aside">
+        <p>„Úspech je súčet malých krokov, ktoré robím aj vtedy, keď sa nikto nepozerá.“</p>
+      </aside>
+
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <address>
+        <strong>Tymofii Mardachov</strong><br>
+        <a href="mailto:xmardachov@stuba.sk">xmardachov@stuba.sk</a><br>
+        <a href="tel:+421905123456">+421 905 123 456</a><br>
+        Pod lesíkom 7, 841 04 Bratislava – Karlova Ves
+      </address>
+      <p class="footer-note">© 2026 Tymofii Mardachov. Ilustrácie a monogram (SVG): vlastný návrh vytvorený s pomocou AI (Claude). Mapové podklady © <a href="https://www.esri.com/">Esri</a> (World Street Map) a prispievatelia, knižnica <a href="https://leafletjs.com/">Leaflet</a>. Písmo <a href="https://github.com/rsms/inter">Inter</a> (SIL Open Font License 1.1).</p>
+    </div>
+  </footer>
+</body>
 </html>

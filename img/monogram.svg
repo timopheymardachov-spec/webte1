@@ -1,0 +1,7 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+  <path d="M20 4 H50 A10 10 0 0 1 60 14 V50 A10 10 0 0 1 50 60 H20 L4 44 V14 A10 10 0 0 1 14 4 Z"
+        fill="#123847" stroke="#E3A438" stroke-width="2.5"/>
+  <circle cx="15" cy="15" r="4" fill="#EEF1F5"/>
+  <text x="34" y="41" font-family="Inter, Arial, sans-serif" font-weight="800"
+        font-size="24" fill="#F4C86A" text-anchor="middle">TM</text>
+</svg>

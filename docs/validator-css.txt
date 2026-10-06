@@ -1,0 +1,24 @@
+Validator: W3C CSS Validator (jigsaw.w3.org engine, css-validator.jar), run locally on 2026-10-05, profile CSS level 3 + SVG
+
+=== css/styles.css
+Congratulations! No Error Found.
+This document validates as CSS level 3 + SVG !
+Warnings (8)
+URI : css/styles.css
+Line : 100 -  Due to their dynamic nature, CSS variables are currently not statically checked
+Line : 104 -  “-webkit-font-smoothing” is a vendor extension
+Line : 133 -  Due to their dynamic nature, CSS variables are currently not statically checked
+Line : 219 -  Due to their dynamic nature, CSS variables are currently not statically checked
+Line : 326 -  Due to their dynamic nature, CSS variables are currently not statically checked
+Line : 399 -  Due to their dynamic nature, CSS variables are currently not statically checked
+Line : 425 -  Due to their dynamic nature, CSS variables are currently not statically checked
+Line : 581 -  Due to their dynamic nature, CSS variables are currently not statically checked
+
+=== css/print.css
+Congratulations! No Error Found.
+This document validates as CSS level 3 + SVG !
+Warnings (3)
+URI : css/print.css
+Line : 30 -  Due to their dynamic nature, CSS variables are currently not statically checked
+Line : 58 -  Due to their dynamic nature, CSS variables are currently not statically checked
+Line : 59 -  Due to their dynamic nature, CSS variables are currently not statically checked

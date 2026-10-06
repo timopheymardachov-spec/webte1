@@ -1,0 +1,72 @@
+/* =========================================================
+   print.css - print styles (@media print)
+   Goal: the CV prints on one page, without navigation
+   and without decorative backgrounds.
+   ========================================================= */
+@media print {
+  /* print palette: tokens are redefined in :root, no raw colors below */
+  :root {
+    --color-text: #000000;
+    --color-text-muted: #333333;
+    --color-bg: #FFFFFF;
+    --color-surface: #FFFFFF;
+    --color-border: #999999;
+    --color-accent: #000000;
+  }
+
+  .skip-link,
+  .site-nav,
+  .nav-toggle,
+  .site-footer {
+    display: none !important;
+  }
+
+  .site-header {
+    background: none !important;
+    color: var(--color-text) !important;
+    border-bottom: 1px solid var(--color-text);
+    box-shadow: none !important;
+  }
+  .site-header .header-bar { padding-block: 0 var(--space-2xs); }
+  .brand-link { align-items: flex-start; }
+  .brand-text { display: block; }
+  .brand-name, .brand-slogan { display: block; color: var(--color-text) !important; }
+  .monogram { filter: grayscale(1); }
+
+  body {
+    background: var(--color-bg) !important;
+    color: var(--color-text) !important;
+    font-size: 11pt;
+  }
+
+  a { color: var(--color-text) !important; text-decoration: underline; }
+
+  /* CV: no colored backgrounds, narrow margins, one page */
+  body.page-cv .cv-layout {
+    display: block !important;
+    background: none !important;
+  }
+  body.page-cv .cv-col-photo,
+  body.page-cv .cv-col-main {
+    background: none !important;
+    color: var(--color-text) !important;
+    padding: 0 !important;
+  }
+  body.page-cv .cv-col-photo {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--space-sm);
+    margin-bottom: var(--space-sm);
+  }
+  body.page-cv .cv-col-photo img { width: 110px; margin: 0; }
+  body.page-cv .cv-col-photo address { line-height: 1.5; }
+  body.page-cv .cv-col-photo address a { color: var(--color-text) !important; }
+  body.page-cv h1 { font-size: 20pt; margin-top: 0; }
+  body.page-cv h2 { font-size: 13pt; margin: 10pt 0 4pt; }
+  body.page-cv .container { max-width: 100%; padding: 0; margin: 0; }
+  body.page-cv .skill-row { border-bottom: 1px solid var(--color-border); padding: 2pt 0; }
+  body.page-cv .skill-level { color: var(--color-text-muted); }
+  body.page-cv .page-hero { padding: 0; }
+}
+
+@page { size: A4; margin: 12mm; }

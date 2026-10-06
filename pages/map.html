@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="sk" class="no-js">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tymofii Mardachov — Kde ma nájdete</title>
+  <meta name="description" content="Interaktívna mapa: škola STU FEI, domov a vlastné body so vzdialenosťou počítanou Haversinovým vzorcom.">
+
+  <meta property="og:title" content="Tymofii Mardachov — Kde ma nájdete">
+  <meta property="og:description" content="Interaktívna mapa školy, domova a vlastných bodov.">
+  <meta property="og:image" content="../img/og-cover.png">
+  <meta property="og:type" content="website">
+
+  <link rel="icon" href="../favicon.ico" sizes="any">
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="../css/print.css" media="print">
+
+  <!-- Exception allowed by the assignment: map library only on this page -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+          integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+  <script src="../js/script.js" defer></script>
+</head>
+<body class="page-map">
+  <a class="skip-link" href="#content">Preskočiť na obsah</a>
+
+  <header class="site-header">
+    <div class="container header-bar">
+      <a class="brand-link" href="../index.html">
+        <img class="monogram" src="../img/monogram.svg" alt="" width="44" height="44">
+        <span class="brand-text">
+          <span class="brand-name">Tymofii Mardachov</span>
+          <span class="brand-slogan">Študent aplikovanej informatiky, ktorý spája programovanie s cestovaním.</span>
+        </span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-menu" aria-label="Prepnúť navigačné menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <nav class="site-nav container" id="main-menu" aria-label="Hlavná navigácia">
+      <ul>
+        <li><a href="../index.html">Profil</a></li>
+        <li><a href="cv.html">Životopis</a></li>
+        <li><a href="workspace.html">Pracovné prostredie</a></li>
+        <li><a href="schedule.html">Kedy ma zastihnete</a></li>
+        <li><a href="map.html" aria-current="page">Kde ma nájdete</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="content" class="container">
+    <section class="page-hero" aria-labelledby="h-map">
+      <h1 id="h-map">Kde ma nájdete</h1>
+      <p>Na mape je trvalo vyznačená moja škola a domov. Vlastné body si môžete pridať kliknutím a porovnať ich vzdialenosť — počíta ju vlastný kód podľa Haversinovho vzorca, nie funkcia knižnice.</p>
+    </section>
+
+    <div class="map-layout">
+      <div class="map-panel">
+        <h2>Vlastné body</h2>
+        <div class="map-form">
+          <label for="point-name">Názov bodu</label>
+          <input type="text" id="point-name" placeholder="napr. Obľúbená kaviareň" maxlength="60">
+          <button type="button" id="add-point-toggle" class="btn" aria-pressed="false">Pridať bod kliknutím na mapu</button>
+          <button type="button" id="add-center-point" class="btn btn-secondary">Pridať bod do stredu mapy</button>
+        </div>
+
+        <p class="map-empty-state" hidden>Zatiaľ nemáte pridaný žiadny bod. Napíšte názov, kliknite na „Pridať bod kliknutím na mapu“ a potom kliknite na miesto na mape. Bez myši použite „Pridať bod do stredu mapy“ (mapu posúvate šípkami).</p>
+        <ul class="point-list" hidden></ul>
+
+        <p class="distance-readout" hidden></p>
+      </div>
+
+      <div id="map-canvas" role="application" aria-label="Interaktívna mapa so školou, domovom a vlastnými bodmi"></div>
+    </div>
+
+    <p class="footer-note">Mapové podklady © <a href="https://www.esri.com/">Esri</a> (World Street Map) a prispievatelia. Mapová knižnica: <a href="https://leafletjs.com/">Leaflet</a>.</p>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <address>
+        <strong>Tymofii Mardachov</strong><br>
+        <a href="mailto:xmardachov@stuba.sk">xmardachov@stuba.sk</a><br>
+        <a href="tel:+421905123456">+421 905 123 456</a><br>
+        Pod lesíkom 7, 841 04 Bratislava – Karlova Ves
+      </address>
+      <p class="footer-note">© 2026 Tymofii Mardachov. Ilustrácie a monogram (SVG): vlastný návrh vytvorený s pomocou AI (Claude). Mapové podklady © <a href="https://www.esri.com/">Esri</a> (World Street Map) a prispievatelia, knižnica <a href="https://leafletjs.com/">Leaflet</a>. Písmo <a href="https://github.com/rsms/inter">Inter</a> (SIL Open Font License 1.1).</p>
+    </div>
+  </footer>
+</body>
+</html>
