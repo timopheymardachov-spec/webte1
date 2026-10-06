@@ -2,7 +2,7 @@
 
 **Meno a krúžok:** Tymofii Mardachov — WEBTE1, krúžok Pondelok 9:00 (cvičenie Web technologies 1, K. Žáková, c137).
 
-**Odkaz na školský server:** vložiť URL po nahratí na školský server
+**Odkaz na školský server:** https://webte1.fei.stuba.sk/~xmardachov/
 
 ## O webe
 
